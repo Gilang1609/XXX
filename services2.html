@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ideas - Suitmedia</title>
+        <link rel="stylesheet" href="ideas2.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <div class="logo">
+                    <img src="./image/logo.webp" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="work.html" id="work">Work</a></li>
+                        <li><a href="about.html" id="about">About</a></li>
+                        <li><a href="services2.html" id="services">Services</a></li>
+                        <li><a href="ideas2.html" id="ideas" class="active">Ideas</a></li>
+                        <li><a href="careers.html" id="careers">Careers</a></li>
+                        <li><a href="contact.html" id="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="banner">
+            <div class="trapezoid-container">
+                <img src="./image/ideas.jpg" alt="Header Image">
+            </div>
+            <div class="banner-content">
+                <h1>Ideas</h1>
+                <p>Where all our great things begin</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="filter-bar">
+                <p id="total-items">Showing 1 - 10 of 100</p>
+                <div class="filter-options">
+                    <label for="show-per-page">Show per page:</label>
+                    <select id="show-per-page">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                    </select>
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by">
+                        <option value="-published_at">Newest</option>
+                        <option value="published_at">Oldest</option>
+                    </select>                    
+                </div>
+            </div>
+    
+            <div class="articles">
+                <!-- Article blocks will be inserted here dynamically -->
+            </div>
+    
+            <div class="pagination">
+                <!-- Pagination buttons will be inserted here dynamically -->
+            </div>
+        </section>
+
+        <script src="ideas2.js"></script>
+    </body>
+</html>
